@@ -1,15 +1,3 @@
----
-title: "180 midterm"
-author: "Yong Zhao"
-date: "10/29/2020"
-output: pdf_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-```{r}
 library(SASxport)
 DIQ<-read.xport("DIQ_I.XPT")
 View(DIQ)
@@ -103,8 +91,8 @@ check_NA<-select(DIQ1, DIQ160:DIQ180)
 check_NA[is.na(check_NA)]<-0
 sum(check_NA)  # Because it is O, so all of these column are missing values, we could delete these columns 
 
-#DIQ1<-select(DIQ1, -(DIQ160:DIQ180))
-#View(DIQ1)
+DIQ1<-select(DIQ1, -(DIQ160:DIQ180))
+View(DIQ1)
 
 
 #DIDO60: How long take insulin is only applied for people is taking insulin. I made DIDO60 and DIDO60S missing value equal to 0.   
@@ -257,7 +245,4 @@ View(new_dataframe)
 
 
 
-
-
-```
 
