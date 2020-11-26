@@ -5,12 +5,22 @@
 ### 
 •	Include a single README.md file for the entire repository, containing:
 
-•	Description of the purpose of the repository.
+•	The purpose of the repository is to share the code with people and welcome to the feedbacks in order to improve my data wrangling skills. 
 
-•	A statement (1 sentence) that you have been given the permission to make your work public
+•	I have been given the permission to make your work public statement
 
-•	A description of each sub-directory (you do not need to explain every file; just every task
+•	Project 1: rename columns, create new columns in SQL server
 
-•	Provide the link of your GitHub repository. 
+•	Project 2: use R to connect OBBC SQL server and merge tables, extract records in specific columns, and data wrangling in R. 
 
-Example:  https://github.com/ydavidchen/data_wrangling_projects 
+•	Project 3: use dplyr package in R to merge table and group table in order to extract information and visualize data by ggplot.
+
+•	Midterm: use both R and SQL skils to solve some problems with health dataset (e.g., missing values, numeric columns stored as chars, etc.) and cleaned data for further use. 
+
+•	Final: use both SQL server and basic R, and dplyr package to change columns name, patients' status, and coonvert timestamp to real date. Also, use data wrangling skills to merge data and extract some information.  
+
+
+
+
+
+
